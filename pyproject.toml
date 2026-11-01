@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,6 +7,8 @@ name = "gsoptviz"
 version = "0.1.0"
 description = "Independent Gaussian splat and camera optimization trajectory viewer"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.24", "scipy>=1.10", "viser==1.1.1", "plyfile>=1.0", "pillow>=10.1"]
 
@@ -16,6 +18,10 @@ video = ["playwright", "imageio-ffmpeg"]
 
 [project.scripts]
 gsoptviz = "gsoptviz.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/gotoHappy/gsoptviz"
+Issues = "https://github.com/gotoHappy/gsoptviz/issues"
 
 [tool.setuptools.packages.find]
 include = ["gsoptviz*"]

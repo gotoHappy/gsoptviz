@@ -64,3 +64,5 @@ gsoptviz video demo_sequence/manifest.json --output artifacts/demo.mp4
 保存步之间不插值，播放速度表示每秒快照数。
 
 基于 [Viser](https://github.com/nerfstudio-project/viser) 的浏览器渲染与场景序列化实现。
+
+采用 [MIT 许可证](LICENSE)。

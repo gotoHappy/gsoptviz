@@ -203,3 +203,7 @@ blocked. MP4 rendering requires a separate end-to-end check.
 Built on [Viser](https://github.com/nerfstudio-project/viser), which provides the
 WebGL Gaussian renderer, scene UI, and standalone scene serialization. Runtime
 dependencies retain their respective licenses.
+
+## License
+
+[MIT](LICENSE).

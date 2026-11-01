@@ -1,0 +1,5 @@
+include README.md README.zh-CN.md
+include convert_torch_sequence.py
+recursive-include examples *.py
+recursive-include tests *.py
+recursive-include docs *.png
